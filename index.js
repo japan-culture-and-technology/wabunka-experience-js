@@ -1,4 +1,6 @@
-jQuery(function() {
+alert('@');
+
+jQuery(function () {
   var isEnglishPage = location.href.includes("en.");
   if (isEnglishPage) {
     var $rotateTargetBlock = jQuery("#js-block03-0 .p-block03__header-title");
