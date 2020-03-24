@@ -1,5 +1,3 @@
-alert('@');
-
 jQuery(function () {
   var isEnglishPage = location.href.includes("en.");
   if (isEnglishPage) {
