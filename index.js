@@ -12,4 +12,7 @@ jQuery(function () {
 
   // トップページ 開催実績飛ばないようにする
   jQuery('.p-index-news__list a').attr('href', '#');
+  
+  // フッタースライダー削除
+  jQuery('.p-footer-slider').hide();
 });
