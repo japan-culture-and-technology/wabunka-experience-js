@@ -1,10 +1,6 @@
 jQuery(function () {
   var isEnglishPage = location.href.includes("en.");
   if (isEnglishPage) {
-    // var $rotateTargetBlock = jQuery("#js-block03-0 .p-block03__header-title");
-    // $rotateTargetBlock.css("writing-mode", "horizontal-tb");
-    // $rotateTargetBlock.text("Tsukiji Honganji");
-
     // グローバルナビゲーションの出し分け対応
     jQuery('nav a:contains("English")').hide();
     jQuery('nav a:contains("開催場所例")').hide();
