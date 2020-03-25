@@ -4,6 +4,9 @@ jQuery(function () {
     var $rotateTargetBlock = jQuery("#js-block03-0 .p-block03__header-title");
     $rotateTargetBlock.css("writing-mode", "horizontal-tb");
     $rotateTargetBlock.text("Tsukiji Honganji");
+    jQuery('a[href="https://en.wabunka-experience.com/"]');
+  } else {
+    jQuery('a[href="https://wabunka-experience.com/"]');
   }
 
   // 「書道」「茶道」「華道」ボタンの削除
