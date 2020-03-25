@@ -12,6 +12,7 @@ jQuery(function () {
   } else {
     jQuery('nav a:contains("日本語")').hide();
     jQuery('nav a:contains("Place")').hide();
+    jQuery('nav a:contains("Program")').hide();
   }
 
   // 「書道」「茶道」「華道」ボタンの削除
