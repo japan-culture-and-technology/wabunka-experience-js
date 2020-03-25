@@ -10,11 +10,13 @@ jQuery(function () {
     jQuery('nav a:contains("開催場所例")').hide();
     jQuery('nav a:contains("体験プログラム")').hide();
     jQuery('nav a:contains("メディア")').hide();
+    jQuery('nav a:contains("お問い合わせ")').hide();
   } else {
     jQuery('nav a:contains("日本語")').hide();
     jQuery('nav a:contains("Place")').hide();
     jQuery('nav a:contains("Program")').hide();
     jQuery('nav a:contains("Media")').hide();
+    jQuery('nav a:contains("Contact")').hide();
   }
 
   // 「書道」「茶道」「華道」ボタンの削除
