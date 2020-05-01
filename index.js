@@ -26,5 +26,5 @@ jQuery(function () {
   jQuery(".p-footer-slider").hide();
 
   // 記事ページのパンくずリスト削除
-  jQuery(".c-breadcrumb").hide();
+  // jQuery(".c-breadcrumb").hide();
 });
