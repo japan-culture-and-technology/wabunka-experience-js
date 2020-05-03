@@ -15,10 +15,6 @@ jQuery(function () {
     jQuery('nav a:contains("Contact")').hide();
   }
 
-  // 「書道」「茶道」「華道」ボタンの削除
-  var $sliderNav = jQuery("#js-index-slider__nav");
-  $sliderNav.hide();
-
   // トップページ 開催実績飛ばないようにする
   jQuery(".p-index-news__list a").attr("href", "javascript:void(0)");
 
